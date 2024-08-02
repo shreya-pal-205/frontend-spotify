@@ -1,0 +1,173 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color: black;
+    width: 340px;
+}
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    overflow: auto;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 72px;
+}
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-option{
+    display: flex;
+    line-height: 2rem;
+}
+.nav-option i{
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+.nav-option p{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.library{
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+    border-radius: 1rem;
+    margin: 0.25rem;
+}
+.library-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.library-logo-left{
+    display: flex;
+}
+.library-logo-left img{
+    height: 1.5rem;
+    width: 2rem;
+    margin-left: 1rem;
+}
+.library-logo-left p{
+    margin-left: 1rem;
+}
+.library-logo-right{
+    margin-right: 1rem;
+
+}
+.library-options{
+    background-color: #1c1c1c;
+    margin-top: 2rem;
+    height: 200px;
+    border-radius: 0.75rem;
+    margin: 2rem 0.25rem 0 0.25rem;
+    
+}
+.writing{
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 0.75rem;
+}
+.writing p{
+    margin-top: 1rem;
+}
+.btn{
+    margin: 1.25rem 0 0 1rem;
+    border-radius: 2rem;
+    border: none;
+    height: 2rem;
+    color: black;
+    width: 8rem;
+}
+.icon-section-left{
+    margin: 1rem 1rem 2rem 2rem;
+    display: flex;
+}
+.logo1{
+    background-color: black;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.25rem;
+}
+.icon-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+}
+.explore{
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    color: black;
+    margin-right: 1rem;
+}
+.install{
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    margin: 0 1rem 0 0;
+}
+@media(max-width:1000px){
+    .explore{
+        display: none;
+    }
+}
+.cards{
+    margin-left: 1rem;
+}
+.card{
+    background-color: #232323;
+    width: 200px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 1rem 3rem 1rem;
+}
+.card img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.card h2{
+    font-weight: 500;
+}
+.card p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
